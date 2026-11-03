@@ -1,0 +1,41 @@
+# Local Python environment and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+.streamlit/secrets.toml
+local.settings.json
+*.pem
+*.key
+
+# Personal experiment data, exports and logs
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+exports/
+logs/
+*.log
+greentoken-report*.json
+greentoken-resources*.csv
+greentoken-metrics*.csv
+
+# Build artifacts and editor settings
+build/
+dist/
+*.zip
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
