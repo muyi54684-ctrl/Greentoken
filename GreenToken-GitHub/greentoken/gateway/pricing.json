@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "active_version": "deepseek-2026-10-13-peak-reference-v1",
+  "versions": [
+    {
+      "version": "deepseek-2026-10-13-peak-reference-v1",
+      "currency": "USD",
+      "policy": "fixed_peak_reference",
+      "price_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "checked_at": "2026-10-13",
+      "missing_cache_usage": "assume_uncached_input",
+      "models": {
+        "deepseek-flash": {
+          "input_uncached_per_million": 0.30,
+          "input_cached_per_million": 0.006,
+          "output_per_million": 1.20
+        },
+        "deepseek-v4-pro": {
+          "input_uncached_per_million": 1.32,
+          "input_cached_per_million": 0.044,
+          "output_per_million": 3.96
+        }
+      }
+    }
+  ]
+}
