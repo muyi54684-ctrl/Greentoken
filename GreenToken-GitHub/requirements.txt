@@ -1,2 +1,0 @@
-streamlit==1.65.0
-tzdata==2026.5
